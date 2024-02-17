@@ -1,0 +1,51 @@
+#logogal {
+
+    height: 6vh;
+}
+
+#formulario {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#formredondo {
+    width: 45vh;
+    height: 70vh;
+    background-color: cadetblue;
+    border-radius: 35px;
+    padding: 35px;
+}
+
+#formcuadrado {
+    width: 65vh;
+    height: 70vh;
+    padding: 20px;
+    background-color: rgba(157, 255, 0, 0.575);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#btnf1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.barra {
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    align-content: space-around;
+    width: max-content;
+    
+}

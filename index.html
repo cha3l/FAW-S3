@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img src="images/logo.png" alt="logo" id="logogal"></a>
+            <a href="#" class="brand-logo center">Tarea # 3</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Formulario 1</a></li>
+                <li><a href="formulario2.html">Formualario 2</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="formulario">
+            <div id="formredondo">
+                <h6><b>Nombre:</b> Israel Gonzalez</h6>
+                <h6><b>Carnet:</b> 2003280</h6>
+                <h6><b>Curso:</b> Fundamentos de aplicaciones WEB</h6>
+                <h6><b>Año:</b> 2024</h6>
+            </div>
+            <div id="formcuadrado">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Apellido</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="Direccion" type="text" class="validate">
+                        <label for="Direccion">Direccion</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4">
+                        <input id="cumple_años" type="date" class="validate">
+                        <label for="cumple_años">Cumpleaños</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="carnet" type="text" class="validate">
+                        <label for="carnet">Carnet</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="mascotas" type="number" class="validate">
+                        <label for="mascotas">mascotas</label>
+                    </div>
+                </div>
+                <div class="input-field col s6">
+                    <select>
+                        <option value="" disabled selected>Por favor elige una direccion</option>
+                        <option value="1">Zona 1</option>
+                        <option value="2">Zona 2</option>
+                        <option value="3">Zona 3</option>
+                    </select>
+                    <label>Direccion</label>
+                </div>
+                <div id="btnf1">
+                    <a class="waves-effect waves-light btn-large">Grabar</a>
+                    
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
