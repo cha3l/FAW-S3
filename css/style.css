@@ -43,7 +43,7 @@ body {
 
 .barra {
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
     align-items: center;
     align-content: space-around;
     width: max-content;
